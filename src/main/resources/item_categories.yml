@@ -1,0 +1,19 @@
+equipment:
+  icon: vanillahammers:diamond_hammer
+  name: "menu.vanillahammers.items.category.equipment"
+  priority: 4
+  items:
+    - vanillahammers:wooden_hammer
+    - vanillahammers:stone_hammer
+    - vanillahammers:iron_hammer
+    - vanillahammers:golden_hammer
+    - vanillahammers:diamond_hammer
+    - vanillahammers:netherite_hammer
+    - vanillahammers:emerald_hammer
+    - vanillahammers:lapis_hammer
+    - vanillahammers:quartz_hammer
+    - vanillahammers:obsidian_hammer
+    - vanillahammers:prismarine_hammer
+    - vanillahammers:fiery_hammer
+    - vanillahammers:slime_hammer
+    - vanillahammers:ender_hammer
