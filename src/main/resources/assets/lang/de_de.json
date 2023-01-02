@@ -1,1 +1,17 @@
-{}
+{
+  "item.vanillahammers.stone_hammer": "Steinhammer",
+  "item.vanillahammers.iron_hammer": "Eisenhammer",
+  "item.vanillahammers.golden_hammer": "Goldhammer",
+  "item.vanillahammers.diamond_hammer": "Diamanthammer",
+  "item.vanillahammers.netherite_hammer": "Netherithammer",
+  "item.vanillahammers.obsidian_hammer": "Obsidianhammer",
+  "item.vanillahammers.lapis_hammer": "Lapishammer",
+  "item.vanillahammers.quartz_hammer": "Quartzhammer",
+  "item.vanillahammers.fiery_hammer": "Feuerhammer",
+  "item.vanillahammers.prismarine_hammer": "Prismarinhammer",
+  "item.vanillahammers.slime_hammer": "Schleimhammer",
+  "item.vanillahammers.ender_hammer": "Enderhammer",
+  "advancement.vanillahammers.root.title": "Vanilla Hammers",
+  "item.vanillahammers.wooden_hammer": "Holzhammer",
+  "item.vanillahammers.emerald_hammer": "Smaragdhammer"
+}
