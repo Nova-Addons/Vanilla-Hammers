@@ -1,25 +1,18 @@
 {
-  "item.vanillahammers.wooden_hammer": "Marteau en bois",
-  "item.vanillahammers.stone_hammer": "Marteau en pierre",
-  "item.vanillahammers.iron_hammer": "Marteau en fer",
-  "item.vanillahammers.golden_hammer": "Marteau en or",
-  "item.vanillahammers.diamond_hammer": "Marteau en diamant",
-  "item.vanillahammers.emerald_hammer": "Marteau en émeraude",
-  "item.vanillahammers.obsidian_hammer": "Marteau en obsidienne",
-  "item.vanillahammers.lapis_hammer": "Marteau en lapis-lazuli",
-  "item.vanillahammers.quartz_hammer": "Marteau en quartz",
-  "item.vanillahammers.tater_hammer": "Marteau Lil Tater",
-  "item.vanillahammers.fiery_hammer": "Marteau ardent",
-  "item.vanillahammers.prismarine_hammer": "Marteau en prismarine",
-  "item.vanillahammers.slime_hammer": "Marteau en slime",
-  "item.vanillahammers.ender_hammer": "Marteau de l'Ender",
-
-  "item.vanillahammers.vibranium_hammer": "Marteau en vibranium",
-  "item.vanillahammers.glowstone_hammer": "Marteau en pierre lumineuse",
-  "item.vanillahammers.nether_hammer": "Marteau du Nether",
-
-  "text.autoconfig.vanillahammers.category.default": "Général",
-  "text.autoconfig.vanillahammers.title": "Config de Vanilla Hammers",
-
-  "item.vanillahammers.dynagear_hammer": "Marteau en %s"
+    "item.vanillahammers.wooden_hammer": "Marteau en bois",
+    "item.vanillahammers.stone_hammer": "Marteau en pierre",
+    "item.vanillahammers.iron_hammer": "Marteau en fer",
+    "item.vanillahammers.golden_hammer": "Marteau en or",
+    "item.vanillahammers.diamond_hammer": "Marteau en diamant",
+    "item.vanillahammers.emerald_hammer": "Marteau en émeraude",
+    "item.vanillahammers.obsidian_hammer": "Marteau en obsidienne",
+    "item.vanillahammers.lapis_hammer": "Marteau en lapis-lazuli",
+    "item.vanillahammers.quartz_hammer": "Marteau en quartz",
+    "item.vanillahammers.fiery_hammer": "Marteau ardent",
+    "item.vanillahammers.prismarine_hammer": "Marteau en prismarine",
+    "item.vanillahammers.slime_hammer": "Marteau en slime",
+    "item.vanillahammers.ender_hammer": "Marteau de l'Ender",
+    "item.vanillahammers.glowstone_hammer": "Marteau en pierre lumineuse",
+    "text.autoconfig.vanillahammers.category.default": "Général",
+    "item.vanillahammers.dynagear_hammer": "Marteau en %s"
 }
