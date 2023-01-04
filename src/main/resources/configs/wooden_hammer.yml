@@ -19,3 +19,6 @@ repair_ingredient: "#minecraft:planks"
 # Enchantable Options
 enchantment_value: 15
 enchantment_categories: ["digger", "breakable"]
+
+# Fuel Options
+burn_time: 400
