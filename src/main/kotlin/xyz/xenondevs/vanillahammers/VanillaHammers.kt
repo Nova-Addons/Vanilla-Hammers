@@ -5,12 +5,4 @@ import xyz.xenondevs.vanillahammers.advancement.Advancements
 import xyz.xenondevs.vanillahammers.registry.Items
 import xyz.xenondevs.vanillahammers.registry.ToolTiers
 
-object VanillaHammers : Addon() {
-    
-    override fun init() {
-        ToolTiers.init()
-        Items.init()
-        Advancements.register()
-    }
-    
-}
+object VanillaHammers : Addon()

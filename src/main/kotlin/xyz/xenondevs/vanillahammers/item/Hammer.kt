@@ -4,20 +4,16 @@ import org.bukkit.Axis
 import org.bukkit.block.Block
 import org.bukkit.block.BlockFace
 import org.bukkit.entity.Player
-import org.bukkit.event.EventHandler
-import org.bukkit.event.Listener
-import org.bukkit.event.player.PlayerQuitEvent
 import org.bukkit.inventory.ItemStack
+import xyz.xenondevs.nova.item.NovaItem
 import xyz.xenondevs.nova.item.behavior.ItemBehavior
 import xyz.xenondevs.nova.item.behavior.ItemBehaviorFactory
-import xyz.xenondevs.nova.material.ItemNovaMaterial
 import xyz.xenondevs.nova.util.BlockFaceUtils
 import xyz.xenondevs.nova.util.advance
 import xyz.xenondevs.nova.util.axis
 import xyz.xenondevs.nova.util.breakNaturally
 import xyz.xenondevs.nova.util.destroyProgress
 import xyz.xenondevs.nova.util.hardness
-import xyz.xenondevs.nova.util.registerEvents
 import xyz.xenondevs.nova.util.runTaskTimer
 import xyz.xenondevs.nova.util.setBreakStage
 import xyz.xenondevs.nova.world.block.context.BlockBreakContext
@@ -89,8 +85,8 @@ class Hammer(private val options: HammerOptions) : ItemBehavior() {
     
     companion object : ItemBehaviorFactory<Hammer>() {
         
-        override fun create(material: ItemNovaMaterial): Hammer {
-            return Hammer(HammerOptions(material))
+        override fun create(item: NovaItem): Hammer {
+            return Hammer(HammerOptions(item))
         }
         
         private val hammerWorkers = HashMap<Player, Map<Block, Int>>()

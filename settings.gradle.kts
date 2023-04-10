@@ -1,4 +1,4 @@
-rootProject.name = "vanillahammers"
+rootProject.name = "vanilla_hammers"
 
 dependencyResolutionManagement {
     versionCatalogs {

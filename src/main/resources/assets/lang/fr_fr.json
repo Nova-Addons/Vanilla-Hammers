@@ -1,15 +1,15 @@
 {
-  "item.vanillahammers.wooden_hammer": "Marteau en bois",
-  "item.vanillahammers.stone_hammer": "Marteau en pierre",
-  "item.vanillahammers.iron_hammer": "Marteau en fer",
-  "item.vanillahammers.golden_hammer": "Marteau en or",
-  "item.vanillahammers.diamond_hammer": "Marteau en diamant",
-  "item.vanillahammers.emerald_hammer": "Marteau en émeraude",
-  "item.vanillahammers.obsidian_hammer": "Marteau en obsidienne",
-  "item.vanillahammers.lapis_hammer": "Marteau en lapis-lazuli",
-  "item.vanillahammers.quartz_hammer": "Marteau en quartz",
-  "item.vanillahammers.fiery_hammer": "Marteau ardent",
-  "item.vanillahammers.prismarine_hammer": "Marteau en prismarine",
-  "item.vanillahammers.slime_hammer": "Marteau en slime",
-  "item.vanillahammers.ender_hammer": "Marteau de l'Ender"
+  "item.vanilla_hammers.wooden_hammer": "Marteau en bois",
+  "item.vanilla_hammers.stone_hammer": "Marteau en pierre",
+  "item.vanilla_hammers.iron_hammer": "Marteau en fer",
+  "item.vanilla_hammers.golden_hammer": "Marteau en or",
+  "item.vanilla_hammers.diamond_hammer": "Marteau en diamant",
+  "item.vanilla_hammers.emerald_hammer": "Marteau en émeraude",
+  "item.vanilla_hammers.obsidian_hammer": "Marteau en obsidienne",
+  "item.vanilla_hammers.lapis_hammer": "Marteau en lapis-lazuli",
+  "item.vanilla_hammers.quartz_hammer": "Marteau en quartz",
+  "item.vanilla_hammers.fiery_hammer": "Marteau ardent",
+  "item.vanilla_hammers.prismarine_hammer": "Marteau en prismarine",
+  "item.vanilla_hammers.slime_hammer": "Marteau en slime",
+  "item.vanilla_hammers.ender_hammer": "Marteau de l'Ender"
 }

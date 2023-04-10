@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "vanillahammers:item/ender_hammer"
+    "layer0": "vanilla_hammers:item/ender_hammer"
   }
 }

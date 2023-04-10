@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "vanillahammers:item/netherite_hammer"
+    "layer0": "vanilla_hammers:item/netherite_hammer"
   }
 }

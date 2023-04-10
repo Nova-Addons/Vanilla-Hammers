@@ -1,19 +1,19 @@
 package xyz.xenondevs.vanillahammers.registry
 
-import xyz.xenondevs.nova.item.tool.ToolTierRegistry.register
+import xyz.xenondevs.nova.addon.registry.ToolTierRegistry
+import xyz.xenondevs.nova.initialize.Init
 import xyz.xenondevs.vanillahammers.VanillaHammers
 
-object ToolTiers {
+@Init
+object ToolTiers : ToolTierRegistry by VanillaHammers.registry {
     
-    val EMERALD = register(VanillaHammers, "emerald")
-    val LAPIS = register(VanillaHammers, "lapis")
-    val QUARTZ = register(VanillaHammers, "quartz")
-    val OBSIDIAN = register(VanillaHammers, "obsidian")
-    val PRISMARINE = register(VanillaHammers, "prismarine")
-    val FIERY = register(VanillaHammers, "fiery")
-    val SLIME = register(VanillaHammers, "slime")
-    val ENDER = register(VanillaHammers, "ender")
-    
-    fun init() = Unit
+    val EMERALD = registerToolTier("emerald")
+    val LAPIS = registerToolTier("lapis")
+    val QUARTZ = registerToolTier("quartz")
+    val OBSIDIAN = registerToolTier("obsidian")
+    val PRISMARINE = registerToolTier("prismarine")
+    val FIERY = registerToolTier("fiery")
+    val SLIME = registerToolTier("slime")
+    val ENDER = registerToolTier("ender")
     
 }

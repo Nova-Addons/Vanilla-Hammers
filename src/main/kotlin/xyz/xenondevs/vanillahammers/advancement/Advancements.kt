@@ -2,6 +2,9 @@ package xyz.xenondevs.vanillahammers.advancement
 
 import net.md_5.bungee.api.chat.TranslatableComponent
 import xyz.xenondevs.nmsutils.advancement.AdvancementLoader
+import xyz.xenondevs.nova.initialize.DisableFun
+import xyz.xenondevs.nova.initialize.Init
+import xyz.xenondevs.nova.initialize.InitFun
 import xyz.xenondevs.nova.util.advancement
 import xyz.xenondevs.nova.util.icon
 import xyz.xenondevs.nova.util.obtainNovaItemAdvancement
@@ -36,8 +39,10 @@ private val OBSIDIAN_HAMMER = obtainNovaItemAdvancement(VanillaHammers, DIAMOND_
 private val FIERY_HAMMER = obtainNovaItemAdvancement(VanillaHammers, QUARTZ_HAMMER, Items.FIERY_HAMMER)
 private val ENDER_HAMMER = obtainNovaItemAdvancement(VanillaHammers, EMERALD_HAMMER, Items.ENDER_HAMMER)
 
+@Init
 object Advancements {
     
+    @InitFun
     fun register() {
         AdvancementLoader.registerAdvancements(
             ROOT, STONE_HAMMER, IRON_HAMMER, GOLDEN_HAMMER, DIAMOND_HAMMER, NETHERITE_HAMMER,

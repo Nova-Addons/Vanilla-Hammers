@@ -1,9 +1,9 @@
 package xyz.xenondevs.vanillahammers.item.options
 
 import xyz.xenondevs.nova.data.config.ConfigAccess
-import xyz.xenondevs.nova.material.ItemNovaMaterial
+import xyz.xenondevs.nova.item.NovaItem
 
-class HammerOptions(material: ItemNovaMaterial) : ConfigAccess(material) {
+class HammerOptions(material: NovaItem) : ConfigAccess(material) {
     
     val range by getEntry<Int>("range")
     val depth by getEntry<Int>("depth")

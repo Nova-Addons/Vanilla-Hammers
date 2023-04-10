@@ -1,5 +1,5 @@
 {
-  "base": "vanillahammers:diamond_hammer",
+  "base": "vanilla_hammers:diamond_hammer",
   "addition": "minecraft:netherite_ingot",
-  "result": "vanillahammers:netherite_hammer"
+  "result": "vanilla_hammers:netherite_hammer"
 }
