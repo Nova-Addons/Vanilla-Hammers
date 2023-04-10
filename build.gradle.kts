@@ -7,9 +7,9 @@ val mojangMapped = project.hasProperty("mojang-mapped") || System.getProperty("m
 
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
-    kotlin("jvm") version "1.7.21"
+    kotlin("jvm") version "1.8.20"
     id("xyz.xenondevs.specialsource-gradle-plugin") version "1.0.0"
-    id("xyz.xenondevs.string-remapper-gradle-plugin") version "1.0.0"
+    id("xyz.xenondevs.string-remapper-gradle-plugin") version "1.0"
     id("xyz.xenondevs.nova.nova-gradle-plugin") version libs.versions.nova
 }
 
