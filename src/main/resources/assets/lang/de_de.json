@@ -13,5 +13,6 @@
   "item.vanilla_hammers.ender_hammer": "Enderhammer",
   "advancement.vanilla_hammers.root.title": "Vanilla Hammers",
   "item.vanilla_hammers.wooden_hammer": "Holzhammer",
-  "item.vanilla_hammers.emerald_hammer": "Smaragdhammer"
+  "item.vanilla_hammers.emerald_hammer": "Smaragdhammer",
+  "menu.vanilla_hammers.items.category.equipment": "Ausrüstung"
 }
