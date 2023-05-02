@@ -1,1 +1,17 @@
-{}
+{
+  "item.vanilla_hammers.stone_hammer": "Кам'яний Молот",
+  "item.vanilla_hammers.iron_hammer": "Залізний Молот",
+  "item.vanilla_hammers.golden_hammer": "Золотий Молот",
+  "item.vanilla_hammers.netherite_hammer": "Незеритовий Молот",
+  "item.vanilla_hammers.emerald_hammer": "Смарагдовий Молот",
+  "item.vanilla_hammers.obsidian_hammer": "Обсидіановий Молот",
+  "item.vanilla_hammers.lapis_hammer": "Молоток з Лазуриту",
+  "item.vanilla_hammers.quartz_hammer": "Кварцовий Молоток",
+  "item.vanilla_hammers.prismarine_hammer": "Молоток з Призмарином",
+  "item.vanilla_hammers.slime_hammer": "Слизовий Молот",
+  "item.vanilla_hammers.ender_hammer": "Ендер-Молот",
+  "menu.vanilla_hammers.items.category.equipment": "Обладнання",
+  "item.vanilla_hammers.wooden_hammer": "Дерев'яний Молоток",
+  "item.vanilla_hammers.diamond_hammer": "Діамантовий Молот",
+  "item.vanilla_hammers.fiery_hammer": "Вогняний Молот"
+}
