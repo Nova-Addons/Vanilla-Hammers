@@ -14,7 +14,7 @@ import xyz.xenondevs.vanillahammers.registry.Items
 private val ROOT = advancement(VanillaHammers, "root") {
     display {
         icon(Items.WOODEN_HAMMER)
-        title(TranslatableComponent("advancement.vanillahammers.root.title"))
+        title(TranslatableComponent("advancement.vanilla_hammers.root.title"))
         description("")
         background("minecraft:textures/block/stone.png")
         
