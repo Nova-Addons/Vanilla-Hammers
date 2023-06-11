@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 group = "xyz.xenondevs"
-version = "1.1"
+version = "1.2-RC.1"
 
 val mojangMapped = project.hasProperty("mojang-mapped")
 
@@ -13,9 +13,19 @@ plugins {
 }
 
 repositories {
+    mavenLocal()
     mavenCentral()
     maven("https://repo.xenondevs.xyz/releases")
-    mavenLocal { content { includeGroup("org.spigotmc") } }
+    
+    // include xenondevs-nms repository if requested
+    if (project.hasProperty("xenondevsNms")) {
+        maven("https://repo.papermc.io/repository/maven-public/") // authlib, brigadier, etc.
+        maven {
+            name = "xenondevsNms"
+            url = uri("https://repo.xenondevs.xyz/nms/")
+            credentials(PasswordCredentials::class)
+        }
+    }
 }
 
 dependencies {
@@ -30,7 +40,6 @@ addon {
     main.set("xyz.xenondevs.vanillahammers.VanillaHammers")
     
     authors.add("StudioCode")
-    // TODO: spigot resource id
 }
 
 spigotRemap {
