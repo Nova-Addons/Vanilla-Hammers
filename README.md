@@ -1,3 +1,5 @@
+Moved to [Nova-Addons/Official-Addons](https://github.com/Nova-Addons/Official-Addons)
+
 # Vanilla Hammers
 A Nova port of the Vanilla Hammers Fabric Mod ([GitHub](https://github.com/Draylar/vanilla-hammers) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/vanilla-hammers)).
 
